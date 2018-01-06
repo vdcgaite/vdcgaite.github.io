@@ -11,6 +11,6 @@ function draw() {
 	console.log("i:",i);
 	fill('red');
 	stroke('red');
-  	ellipse(halfWidth, halfHeight, i, i);
+  	ellipse(i, halfHeight, 80, 80);
   	i++;
 }
