@@ -7,7 +7,7 @@ function preload() {
 }
 
 function setup() {
-	createCanvas( window.innerWidth,window.innerHeight, WEBGL);
+	createCanvas( window.innerWidth,window.innerHeight);
 	//background(51);
 	img = loadImage("../assets/vdc-logo.png");
 	
