@@ -1,10 +1,9 @@
 var img;
 function preload(){
-	img = loadImage("../assets/vdc-logo.png");
+	img = loadImage("../assets/logoVdc.jpg");
 }
 function setup(){
 	createCanvas( window.innerWidth,window.innerHeight, WEBGL);
-	background(51);
 }
 function draw(){
 	rotateX(frameCount * 0.01);
