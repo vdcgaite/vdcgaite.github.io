@@ -7,6 +7,6 @@ function setup(){
 }
 function draw(){
   background(255);
-  //texture(img);
+  texture(img);
   box(45);
 }
