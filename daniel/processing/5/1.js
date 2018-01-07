@@ -7,7 +7,6 @@ function setup(){
 	background(51);
 }
 function draw(){
-	background(51);
 	rotateX(frameCount * 0.01);
 	rotateY(frameCount * 0.01);
 	texture(img);
