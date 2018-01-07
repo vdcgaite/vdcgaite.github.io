@@ -7,6 +7,8 @@ function setup(){
 }
 function draw(){
   background(255);
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
   texture(img);
-  box(45);
+  box(200, 200, 200);
 }
