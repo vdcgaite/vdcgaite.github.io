@@ -2,11 +2,13 @@ var halfWidth = window.innerWidth * 0.5;
 var halfHeight = window.innerHeight * 0.5;
 var img;
 
+function preload(){
+  img = loadImage("../assets/vdc-logo.png");
+}
+
 function setup() {
 	createCanvas( window.innerWidth,window.innerHeight, WEBGL);
 	background(51);
-	img = loadImage("../assets/vdc-logo.png");
-	
 }
 
 function draw() {
