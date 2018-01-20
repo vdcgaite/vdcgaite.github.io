@@ -11,20 +11,16 @@ function setup(){
 }
 function draw(){
 
-	for (var element of data){
-	    // Your element is in format : 
-	    // {"x":"20","y":"24","name":"NewNov"}
-
-	    // To get X
-	    var x = element.x; // or element["x"]
-	    // To get Y
-	    var y = element.y; // or element["y"]
-	    // To get name
-	    var w = element.w; // or element["name"]
-	    var h = element.h;
-
-	    // Do whatsoever with your element
-	    // ...
-	    rect(x, y, w, h);
-	}
+	var x = data.squares[0].x;
+	var y = data.squares[0].x;
+	var w = data.squares[0].w;
+	var h = data.squares[0].h;
+	rect(x, y, w, h);
+	
+	fill('red');
+	var x = data.squares[1].x;
+	var y = data.squares[1].x;
+	var w = data.squares[1].w;
+	var h = data.squares[1].h;
+	rect(x, y, w, h);
 }
