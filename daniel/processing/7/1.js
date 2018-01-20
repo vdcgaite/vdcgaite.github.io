@@ -1,8 +1,13 @@
-var data = [{"x":20,"y":20,"w":50, "h":50},{"x":100,"y":100,"w":50,"h":50}];
+//var data = [{"x":20,"y":20,"w":50, "h":50},{"x":100,"y":100,"w":50,"h":50}];
+var url = "https://vdcgaite.github.io/daniel/processing/data/data.json";
+var data ;
 
-
+function preload() {
+	data = loadJSON(url);
+}
 function setup(){
 	createCanvas( window.innerWidth,window.innerHeight);
+	console.log(data);
 }
 function draw(){
 
