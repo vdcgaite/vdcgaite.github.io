@@ -21,7 +21,7 @@ body {font-family: "Lato", sans-serif}
     <img src="images/olympic2.gif" height="150" width="300">
     <!--div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Los Angeles</h3>
-      <p><b>We had the best time playing at Venice Beach!</b></p>   
+      <p><b>We had the best time playing at Venice Beach!</b></p>
     </div-->
   </div>
 
@@ -39,7 +39,7 @@ body {font-family: "Lato", sans-serif}
     <p class="w3-opacity"><i>Equipes</i></p>
     <p class="w3-justify">Chaque équipe est composée de 2 personnes et un bénévole. Les participants peuvent être des bénévoles.</p>
     <p class="w3-opacity"><i>Règles</i></p>
-    <p class="w3-justify">Il faut que le jeu ou l’animation propose au minimum:<br> 
+    <p class="w3-justify">Il faut que le jeu ou l’animation propose au minimum:<br>
       3 niveaux<br>
       1 capteur (clavier, webcam, souris, makey makey etc…)<br>
       1 événement aléatoire<br>
@@ -72,7 +72,7 @@ body {font-family: "Lato", sans-serif}
     Chocolat<br>
     Médaille<br>
     Le projet gagnant sera diffusé sur notre page Facebook.<br><br>
-  
+
     2EME<br>
     Médaille<br>
     Le projet gagnant sera diffusé sur notre page Facebook.<br><br>
@@ -101,6 +101,18 @@ body {font-family: "Lato", sans-serif}
     </div>
   </div>
 <!-- End Page Content -->
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-center" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="sponsor">
+      <a href="https://www.bibliosansfrontieres.org/" target="_blank"><img src="images/bsf.jpg" height="50%" width="50%"></a>
+    </div>
+  </div>
+  <div class="w3-container w3-center" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="sponsor">
+      <a href="http://www.bigben.fr/" target="_blank"><img src="images/bigben.png" height="50%" width="50%"></a>
+    </div>
+  </div>
 </div>
 
 <!-- Footer -->
@@ -119,12 +131,12 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
+       x[i].style.display = "none";
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 4000);    
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
 }
 
 // Used to toggle the menu on small screens when clicking on the menu button
@@ -132,7 +144,7 @@ function myFunction() {
     var x = document.getElementById("navDemo");
     if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
-    } else { 
+    } else {
         x.className = x.className.replace(" w3-show", "");
     }
 }
