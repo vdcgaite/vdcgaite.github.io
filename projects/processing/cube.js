@@ -1,9 +1,9 @@
 var img;
 function preload(){
-	img = loadImage("../assets/logoVdc.jpg");
+	img = loadImage("assets/logoVdc.jpg");
 }
 function setup(){
-	createCanvas( window.innerWidth,window.innerHeight, WEBGL);
+	createCanvas( window.innerWidth,window.innerHeight/2, WEBGL);
 }
 function draw(){
 	background(250);
