@@ -6,7 +6,7 @@ function setup(){
 	createCanvas( window.innerWidth,window.innerHeight/2, WEBGL);
 }
 function draw(){
-	background(250);
+	background(255);
 	rotateX(frameCount * 0.01);
 	rotateY(frameCount * 0.01);
 	texture(img);
